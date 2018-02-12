@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "172791355695",
+    "firebase_url": "https://homebakerz-5a607.firebaseio.com",
+    "project_id": "homebakerz-5a607",
+    "storage_bucket": "homebakerz-5a607.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172791355695:android:eda4405e5434004b",
+        "android_client_info": {
+          "package_name": "com.android.aman.homebakerz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172791355695-rirqibbqorddg7r8mut15gntjb9ca3qm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.android.aman.homebakerz",
+            "certificate_hash": "aab1067f193fcab291ff1fbb69866fad36b200b8"
+          }
+        },
+        {
+          "client_id": "172791355695-cqba8rv5egp772fbcvsdp10vccb9tq7b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOG1ZGMrns5VuOZvJiyAF9yk1FtTEC-3g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172791355695-cqba8rv5egp772fbcvsdp10vccb9tq7b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
