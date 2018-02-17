@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.aman.homebakerz.ItemDetailedDescriptionActivity">
+
+    <ScrollView
+        android:id="@+id/itemDetailedDescriptionScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/itemDetailedDescriptionButton">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/itemDetailedDescriptionImgView"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:src="@drawable/default_image"
+                android:layout_alignParentTop="true"/>
+
+            <TextView
+                android:id="@+id/itemDetailedDescriptionItemNameTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item_Name"
+                android:textSize="18sp"
+                android:maxWidth="200dp"
+                android:layout_below="@+id/itemDetailedDescriptionImgView"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="20dp"/>
+
+            <TextView
+                android:id="@+id/itemDetailedDescriptionItemPriceTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item_Price"
+                android:textSize="20sp"
+                android:maxWidth="120dp"
+                android:layout_alignBaseline="@id/itemDetailedDescriptionItemNameTxtView"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="20dp"/>
+
+            <TextView
+                android:id="@+id/itemDetailedDescriptionItemDescriptionTxtView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Item_Description"
+                android:textSize="12sp"
+                android:maxWidth="300dp"
+                android:layout_below="@+id/itemDetailedDescriptionItemNameTxtView"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/itemDetailedDescriptionButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="ADD TO CART"
+        android:textSize="20sp"
+        android:background="@color/black_overlay"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>
