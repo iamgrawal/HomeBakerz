@@ -163,6 +163,16 @@ public class ItemDetailedDescriptionActivity extends AppCompatActivity {
 
         paymentRequest.put("amount", amount);
 
+        // Billing Address
+        JSONObject billingAddress = new JSONObject();
+        billingAddress.put("street", "Simon Carmiggeltstraat");
+        billingAddress.put("houseNumberOrName", "6-50");
+        billingAddress.put("postalCode", "1011 DJ");
+        billingAddress.put("city", "Amsterdam");
+        billingAddress.put("stateOrProvince", "");
+        billingAddress.put("country", "NL");
+        paymentRequest.put("billingAddress", billingAddress);
+
         JSONObject additionalData = new JSONObject();
         additionalData.put("androidpay.token", token);
         paymentRequest.put("additionalData", additionalData);
